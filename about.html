@@ -5,43 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>about</title>
+    <link rel="stylesheet" href="style/about.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div>About</div>
-            <div> <img src="/assets/images.png" alt="to do list logo" width="180" height="180"> </div>
-           </nav>
+        <div style=" float:left"> <img src="assets/images.png" alt="to do list logo" width="70" height="70"> </div>
+        <nav class="header_ed">
+        <div class="t1" ><a href="./index.html">Home</a></div>
+        <div class="t2"><a href="./about.html">About Us</a></div>
+       </nav>
     </header>
     <main>
         <br>
-        <section>
+        <section class="s1">
+            <div class="image1"><img src="/assets/profile.jpg" alt="profile picture" width="200" height="200"></div>
+            <div class="intro">
             <h3>Roaa Hailat</h3>
-            <img src="/assets/profile.jpg" alt="profile picture" width="250" height="250">
-            <p>Hi my name is roaa hailat form jordan, I am 23 years old, I graduated from the jordan University
-                 of Science and Technology (JUST) my major was Computer Science in the university.</p>
+            <div>Hi my name is roaa hailat form jordan, I am 23 years old, I graduated from the jordan University
+                 of Science and Technology (JUST) my major was Computer Science in the university.</div>
+                </div>
         </section>
-        <section>
+        <section class="s2">
+            <div>
             <form>
                 <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name"><br>
+                <input type="text" id="name" name="name"><br><br>
                 <label for="email">Email:</label>
-                <input type="text" id="email" name="email"><br>
-                <label for="message">Any Message:</label>
+                <input type="text" id="email" name="email"><br><br>
+                <label for="message">Any Message: </label>
                 <input type="text" id="message" name="message"><br><br>
-                <input type="submit" value="Submit">
-              </form> 
+                <input type="submit" value="Submit" class="submit">
+              </form>
+             </div>
         </section>
+        <br>
     </main>
     <footer>
-        <br>
-        <div>phone:0777777777</div>
-        <div>email:jbncjf4@gmail.com</div>
-        <div>Copyright &#169; All rights reserved</div>
-        <div><a href="https://www.facebook.com">facebook</a></div>
-        <div><a href="https://www.instagram.com">instagram</a></div>
-        <div><a href="https://twitter.com">Twitter</a></div>
-
+        <br/>
+        <nav class="footer_ed">
+            <div class="t2" style="margin-left: 10px;">email:jbncjf4@gmail.com</div>
+            <div class="t2">Copyright &#169; All rights reserved</div>
+            <div class="t2">phone:0777777777</div>
+        </nav>
     </footer>
     
 </body>
