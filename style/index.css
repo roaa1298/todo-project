@@ -1,0 +1,51 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+    
+.header_e {
+    width: 60%;
+  margin: 1 auto;
+  background-color: lightgray;
+  float:left;
+}    
+.footer_e {
+    width: 64%;
+    margin: 1 auto;
+    background-color: lightgray;
+    float:left;
+    font-size: small;
+    
+}
+
+.home2 {
+    width: 50%;
+  margin: 0 auto;
+  margin-left: 200px;
+  font-size: large;
+}    
+
+.r1 {
+    padding:20px;
+     float:left; 
+     margin-left: 150px;
+}
+.r2 {
+    padding:20px;
+     float:left; 
+     margin-left: 90px;
+}
+
+footer {
+    background: lightgray;
+    height: 70px;
+}
+
+header {
+    background: lightgray;
+    height: 70px;
+}
+
+td {
+    text-align: center;
+  }
