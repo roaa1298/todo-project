@@ -1,18 +1,18 @@
 table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+    border: 1px solid rgb(38, 0, 70);
+    /* border-collapse: collapse; */
 }
     
 .header_e {
     width: 60%;
   margin: 1 auto;
-  background-color: lightgray;
+  background-color: rgb(207, 161, 250);
   float:left;
 }    
 .footer_e {
     width: 64%;
     margin: 1 auto;
-    background-color: lightgray;
+    background-color: rgb(203, 147, 255);
     float:left;
     font-size: small;
     
@@ -23,6 +23,7 @@ table, th, td {
   margin: 0 auto;
   margin-left: 200px;
   font-size: large;
+  color: rgb(36, 0, 70);
 }    
 
 .r1 {
@@ -37,15 +38,18 @@ table, th, td {
 }
 
 footer {
-    background: lightgray;
+    background: rgb(203, 147, 255);
     height: 70px;
 }
 
 header {
-    background: lightgray;
+    background: rgb(207, 161, 250);
     height: 70px;
 }
 
 td {
     text-align: center;
+  }
+  main {
+      background-color: rgb(225, 203, 255);
   }
